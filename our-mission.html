@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Our Mission</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/our-mission.css">
+    <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
+  </head>
+  <style media="screen">
+    @media (max-width: 550px) {
+      .container {
+        height: 75vh;
+      }
+    }
+
+    @media (max-width: 1200px) {
+      .x {
+        font-size: 45px;
+      }
+      .sidebar {
+        width: 40vw;
+      }
+      .links-list li {
+        font-size: 40px;
+      }
+    }
+  </style>
+  <body>
+    <div id="sidebar" class="sidebar">
+      <ul style="margin-bottom: none;" class="links-list">
+        <li style="color: lightgrey; font-size: 20px; background-color: rgb(60,60,60);" class="sidebar-item sidebar-header"><a class="x" href="#">&#9776;</a><a class="x hackspace" href="#">HackSpace</a></li>
+        <li class="sidebar-item">
+          <div class="slider" onclick="window.location.href = 'index.html';"></div>
+          <a href="index.html" class="sidebar-link">Home</a>
+        </li>
+        <li class="sidebar-item">
+          <div class="slider" onclick="window.location.href = 'our-mission.html';"></div>
+          <a href="our-mission.html" class="sidebar-link">Our Mission</a>
+        </li>
+        <li class="sidebar-item">
+          <div class="slider" onclick="window.location.href = 'about-us.html';"></div>
+          <a href="about-us.html" class="sidebar-link">About Us</a>
+        </li>
+        <li class="sidebar-item">
+          <div class="slider" onclick="window.location.href = 'contact-us.html';"></div>
+          <a href="contact-us.html" class="sidebar-link">Contact Us</a>
+        </li>
+        <li class="sidebar-item">
+          <div class="slider" onclick="window.location.href = 'requirements.html';"></div>
+          <a href="requirements.html" class="sidebar-link">Requirements</a>
+        </li>
+      </ul>
+    </div>
+    <div class="overlay"></div>
+    <a class="sidebar-button" href="#sidebar"><span class="center">&#9776;</span></a>
+    <div class="container">
+      <h1 class="mission-header">Our Mission</h1>
+      <p>
+        HackSpace is a software development organization comprised of high schoolers. We develop programs and products
+        based on the personal request of the organization that we query. The clients that we target are other
+        non-profit organizations such as Trivalley CoderDojo, Girls who Code, etc. We provide an experience for high
+        schoolers that is not available anywhere else, giving high schoolers the opportunity to work on a real-world
+        projects on a team of experienced and talented developers. We create our products following the software
+        development process for an efficient, organized flow. If you enjoy programming and want to join an organization
+        where you can work with others with similar interests on real-world projects, join us today through the contact
+        us page!
+      </p>
+    </div>
+  </body>
+</html>

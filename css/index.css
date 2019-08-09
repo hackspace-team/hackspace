@@ -1,0 +1,52 @@
+.home-body {
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background-color: #070A0F;
+  height: 90vh;
+}
+
+.home-header {
+  display: inline-block;
+  background-color: rgba(255,255,255,.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  padding: 20px 25px;
+}
+
+.typing-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-image {
+  margin-top: 50px;
+}
+
+.blink {
+  animation: blink 0.5s infinite;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  align-self: center;
+}
+@keyframes blink{
+  to { opacity: .0; }
+}
+.flex {
+	display: flex;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.header-sub-title {
+  font-size: 25px;
+  background-color: rgba(255,255,255,.6);
+  padding: 5px 10px;
+}

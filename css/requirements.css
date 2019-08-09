@@ -1,0 +1,126 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1500627965408-b5f2c8793f17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+.requirements-header, .requirements-description {
+  display: inline-block;
+  background-color: rgba(255,255,255,.85);
+  margin-top: 50px;
+  padding: 15px 20px;
+}
+
+.requirements-header {
+  font-size: 50px;
+}
+
+.requirements-list {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85%;
+}
+
+.requirements-list li {
+  margin: 10px 0;
+}
+
+.requirements-description {
+  letter-spacing: .5px;
+  font-size: 20px;
+  width: 75%;
+}
+
+.general-requirements-list li {
+  margin: 30px 0;
+}
+
+.requirements-container {
+  display: grid;
+  grid-template-columns: repeat(2, 45%);
+  width: 75%;
+  margin: 50px auto 150px auto;
+  grid-gap: 50px;
+  justify-content: center;
+}
+
+.general {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column: 1/3;
+  background-color: rgba(255,255,255,.85);
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px;
+}
+
+.general-header {
+  grid-column: 1/3;
+}
+
+.left {
+  grid-column: 1/2;
+}
+
+.right {
+  grid-column: 2/3;
+}
+
+.requirements1 {
+  grid-column: 1/2;
+}
+
+.requirements2 {
+  grid-column: 2/3;
+}
+
+.requirements3 {
+  grid-column: 1/2;
+}
+
+.requirements4 {
+  grid-column: 2/3;
+}
+
+.requirements {
+  position: relative;
+  background-color: rgba(255,255,255,.85);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.description {
+  display: inline-block;
+  width: 80%;
+  font-size: 17.5px;
+  letter-spacing: .5px;
+  line-height: 20px;
+  transition: all .2s;
+  margin: 20px 0 30px 0;
+}
+
+.requirement {
+  transition: all .2s;
+  opacity: 0;
+}
+
+.requirement-header {
+  width: 85%;
+  margin: 30px auto 0 auto;
+}
+
+.requirements:hover .description {
+  opacity: 0;
+}
+
+.requirements:hover .requirement {
+  opacity: 1;
+}
+
+li {
+  list-style: none;
+}
