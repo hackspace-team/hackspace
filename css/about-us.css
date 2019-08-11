@@ -46,7 +46,6 @@ body {
   bottom: 0;
   border-radius: 2px;
   box-shadow: 0 5px 10px rgba(0,0,0,.3);
-  transform-style: preserve-3d;
 }
 
 .front {
@@ -80,5 +79,13 @@ body {
 }
 
 .card:hover .back {
+  transform: rotateY(360deg);
+}
+
+.card:active .front {
+  transform: rotateY(180deg);
+}
+
+.card:active .back {
   transform: rotateY(360deg);
 }
