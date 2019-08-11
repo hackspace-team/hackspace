@@ -24,6 +24,27 @@
     .contact-image {
       width: auto;
     }
+    .sidebar-button {
+      height: 125px;
+      width: 125px;
+      font-size: 75px;
+    }
+    .sidebar-item {
+      padding: 17.5px 20px;
+    }
+    #contact-form h1 {
+      font-size: 85px;
+    }
+    #contact-form {
+      width: 85vw;
+      height: 65vh;
+      grid-gap: 22.5px;
+      padding: 15px;
+    }
+    .contact-input {
+      font-size: 50px;
+      padding: 30px;
+    }
   }
 </style>
 <body>
@@ -58,10 +79,10 @@
   <div class= "container">
       <form id="contact-form" action="https://formspree.io/calix.huang1@gmail.com" method="POST" autocomplete="off">
         <h1>Have any questions?</h1>
-        <input class="contact-input first-name" type="text" name="name" placeholder="First Name">
-        <input class="contact-input last-name" type="text" name="name" placeholder="Last Name">
-        <input class="contact-input email" type="email" name="_replyto" placeholder="Email">
-        <textarea class="contact-input message" rows="8" cols="80" placeholder="Message"></textarea>
+        <input class="contact-input first-name" type="text" name="First Name" placeholder="First Name">
+        <input class="contact-input last-name" type="text" name="Last Name" placeholder="Last Name">
+        <input class="contact-input email" type="email" name="Email" placeholder="Email">
+        <textarea class="contact-input message" rows="8" cols="80" placeholder="Message" name="Message"></textarea>
         <input class="contact-input contact-btn" type="submit" value="Submit">
       </form>
   </div>

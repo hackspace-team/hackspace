@@ -24,6 +24,29 @@
       .requirements-container {
         grid-template-columns: repeat(auto-fill, 45%);
       }
+      .sidebar-button {
+        height: 125px;
+        width: 125px;
+        font-size: 75px;
+      }
+      .sidebar-item {
+        padding: 17.5px 20px;
+      }
+      .requirements-header {
+        font-size: 100px;
+      }
+      .requirements-description {
+        font-size: 50px;
+      }
+      .requirements-container > * h1 {
+        font-size: 60px;
+      }
+      .requirements-container > * :not(h1) {
+        font-size: 40px;
+      }
+      .requirements {
+        padding: 30px;
+      }
     }
   </style>
   <body style="text-align: center;">
@@ -80,70 +103,72 @@
           </ul>
         </div>
       </div>
-      <div class="requirements requirements1">
-        <h1 class="requirement-header">Developer</h1>
-        <div class="description">
-          Developers specialize in programming and building the actual product being assigned. Developers must have a basic knowledge of computer software,
-          operating systems, and command-line tools. Examples include: Using Git and GitHub for code organization, knowing and using basic terminal commands,
-          using text editors and IDEs, and much more. Developers must have a strong communication with the rest of the development team and the project manager
-          for efficiency and asynchronous flow.
+      <div class="special-requirements-container">
+        <div class="requirements requirements1">
+          <h1 class="requirement-header">Developer</h1>
+          <div class="description">
+            Developers specialize in programming and building the actual product being assigned. Developers must have a basic knowledge of computer software,
+            operating systems, and command-line tools. Examples include: Using Git and GitHub for code organization, knowing and using basic terminal commands,
+            using text editors and IDEs, and much more. Developers must have a strong communication with the rest of the development team and the project manager
+            for efficiency and asynchronous flow.
+          </div>
+          <div class="requirement">
+            <ul class="requirements-list">
+              <li>Experience in multiple programming languages</li>
+              <li>Proficient in one programming language</li>
+              <li>Basic experience with Git and GitHub</li>
+              <li>General knowledge of computers</li>
+              <li>Understand the software development process</li>
+              <li>Works well in a team environment</li>
+              <li>Works well in a virtual/remote team</li>
+            </ul>
+          </div>
         </div>
-        <div class="requirement">
-          <ul class="requirements-list">
-            <li>Experience in multiple programming languages</li>
-            <li>Proficient in one programming language</li>
-            <li>Basic experience with Git and GitHub</li>
-            <li>General knowledge of computers</li>
-            <li>Understand the software development process</li>
-            <li>Works well in a team environment</li>
-            <li>Works well in a virtual/remote team</li>
-          </ul>
+        <div class="requirements requirements2">
+          <h1 class="requirement-header">Designer</h1>
+          <div class="description">
+            Designers specialize in graphic design, and more specifically, desiging logos, mapping out user interfaces, editing photos and/or videos,
+            and editing website designs. Designers also help with video editing and must have experience with photo editing software, such as Adobe
+            Photoshop.
+          </div>
+          <div class="requirement">
+            <ul class="requirements-list">
+              <li>Able to come up with original, unique designs</li>
+              <li>Experience with photo editing/creating software</li>
+              <li>Able to design logos, website layouts, and user interfaces</li>
+              <li>Work quickly in short periods of time</li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="requirements requirements2">
-        <h1 class="requirement-header">Designer</h1>
-        <div class="description">
-          Designers specialize in graphic design, and more specifically, desiging logos, mapping out user interfaces, editing photos and/or videos,
-          and editing website designs. Designers also help with video editing and must have experience with photo editing software, such as Adobe
-          Photoshop.
+        <div class="requirements requirements3">
+          <h1 class="requirement-header">Business Analyst</h1>
+          <div class="description">
+            Business analysts specialize in communicating with the client and the development team to come up with deadlines and micro-deadlines and to organize
+            events so the product can be completed, tested, documented, and deployed on time. Business analysts also market and promote the product to advertise
+            and expand HackSpace.
+          </div>
+          <div class="requirement">
+            <ul class="requirements-list">
+              <li>Good soft skills</li>
+              <li>Experience with Powerpoint/Google slides</li>
+              <li>Good at project management</li>
+              <li>Organized</li>
+            </ul>
+          </div>
         </div>
-        <div class="requirement">
-          <ul class="requirements-list">
-            <li>Able to come up with original, unique designs</li>
-            <li>Experience with photo editing/creating software</li>
-            <li>Able to design logos, website layouts, and user interfaces</li>
-            <li>Work quickly in short periods of time</li>
-          </ul>
-        </div>
-      </div>
-      <div class="requirements requirements3">
-        <h1 class="requirement-header">Business Analyst</h1>
-        <div class="description">
-          Business analysts specialize in communicating with the client and the development team to come up with deadlines and micro-deadlines and to organize
-          events so the product can be completed, tested, documented, and deployed on time. Business analysts also market and promote the product to advertise
-          and expand HackSpace.
-        </div>
-        <div class="requirement">
-          <ul class="requirements-list">
-            <li>Good soft skills</li>
-            <li>Experience with Powerpoint/Google slides</li>
-            <li>Good at project management</li>
-            <li>Organized</li>
-          </ul>
-        </div>
-      </div>
-      <div class="requirements requirements4">
-        <h1 class="requirement-header">Quality Assurance Developer</h1>
-        <div class="description">
-          A quality assurance developer, or a QA Developer, specializes in testing and giving feedback based on what the specified client
-          is looking for in their request, and addresses these changes directly to the project manager and to the development team. These
-          developers also help with bug testing the actual product.
-        </div>
-        <div class="requirement">
-          <ul class="requirements-list">
-            <li>Work quickly in short periods of time</li>
-            <li>Pay close attention to what the client needs</li>
-          </ul>
+        <div class="requirements requirements4">
+          <h1 class="requirement-header">Quality Assurance Developer</h1>
+          <div class="description">
+            A quality assurance developer, or a QA Developer, specializes in testing and giving feedback based on what the specified client
+            is looking for in their request, and addresses these changes directly to the project manager and to the development team. These
+            developers also help with bug testing the actual product.
+          </div>
+          <div class="requirement">
+            <ul class="requirements-list">
+              <li>Work quickly in short periods of time</li>
+              <li>Pay close attention to what the client needs</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
