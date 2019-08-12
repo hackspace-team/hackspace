@@ -75,15 +75,15 @@
           <p class="long-description">Calix Huang is the founder and the president of HackSpace. He is the web developer and administrator at Synergize Ventures, and a leadership member of the Teen Leadership Council at Trivalley CoderDojo. He specializes in Python and Full-Stack web development. He is currently 14 years old and a home-schooled sophmore in high school.</p>
         </div>
       </div>
-      <div class="card">
-        <div class="card-side front">
+      <div class="card card2">
+        <div class="card-side front front2">
           <div class="top-container">
             <img src="img/default.png" alt="Profile Picture" class="profile-picture">
             <h1 class="name">Michael Rejo</h1>
           </div>
           <p class="title">Developer</p>
         </div>
-        <div class="card-side back">
+        <div class="card-side back back2">
           <h1 class="name">Michael Rejo</h1>
           <p class="long-description">No information provided.</p>
         </div>
@@ -130,8 +130,13 @@
     </div>
     <script>
       document.querySelector(".card1").addEventListener('touchstart', function() {
-        document.querySelector(".front1").style.transform = "rotateY(180deg)"
-        document.querySelector(".back1").style.transform = "rotateY(360deg)"
+        document.querySelector(".front1").style.transform = "rotateY(180deg)";
+        document.querySelector(".back1").style.transform = "rotateY(360deg)";
+      })
+
+      document.querySelector(".card2").addEventListener('touchstart', function() {
+        document.querySelector(".front2").style.transform = "rotateY(180deg)";
+        document.querySelector(".back2").style.transform = "rotateY(360deg)";
       })
     </script>
   </body>
