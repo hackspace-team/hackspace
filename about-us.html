@@ -29,12 +29,11 @@
       .sidebar-item {
         padding: 17.5px 20px;
       }
-      .card-container:not(.manual-flip):hover .front,
-      .card-container.hover.manual-flip .front {
+      .card .front {
         transform: rotateY(180deg);
       }
-      .card-container:not(.manual-flip):hover .back,
-      .card-container.hover.manual-flip .back {
+
+      .card .back {
         transform: rotateY(360deg);
       }
     }
