@@ -81,11 +81,3 @@ body {
 .card:hover .back {
   transform: rotateY(360deg);
 }
-
-.card:active .front {
-  transform: rotateY(180deg);
-}
-
-.card:active .back {
-  transform: rotateY(360deg);
-}
