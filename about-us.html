@@ -129,12 +129,10 @@
       </div>
     </div>
     <script>
-      document.querySelector(".card1").addEventListener('touchstart', function onFirstTouch() {
-        document.querySelector(".card1").USER_IS_TOUCHING = true;
+      document.querySelector(".card1").addEventListener('touchstart', function() {
         document.querySelector(".front1").style.transform = "rotateY(180deg)"
         document.querySelector(".back1").style.transform = "rotateY(360deg)"
-      document.querySelector(".card1").removeEventListener('touchstart', onFirstTouch, false);
-      }, false);
+      })
     </script>
   </body>
 </html>
