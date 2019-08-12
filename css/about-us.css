@@ -46,7 +46,6 @@ body {
   bottom: 0;
   border-radius: 2px;
   box-shadow: 0 5px 10px rgba(0,0,0,.3);
-  transform-style: preserve-3d;
 }
 
 .front {
