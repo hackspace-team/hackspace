@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  height: 100vh;
+  background-color: lightblue;
+  background-image: url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.main-header {
+  display: inline-block;
+  background-color: rgba(255,255,255,.9);
+  padding: 30px;
+  border-radius: 5px;
+  color: black;
+  margin: 50px 0;
+  font-size: 70px;
+}
+
+.join-container {
+  display: inline-block;
+  background-color: rgba(255,255,255,.9);
+  padding: 50px;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-size: 20px;
+  width: 75%;
+}
+
+.bold {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 22.5px;
+}

@@ -22,6 +22,7 @@ body {
 
 .mission-header {
   font-size: 50px;
+  border-radius: 3px;
 }
 
 .container p {

@@ -116,6 +116,7 @@ h1 {
 .sidebar-button:hover {
   text-decoration: none;
   background-color: #ccc;
+  color: black;
 }
 
 .search-button-icon {

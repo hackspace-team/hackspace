@@ -6,11 +6,19 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/projects.css">
     <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
   </head>
   <body>
     <div id="sidebar" class="sidebar">
       <ul style="margin-bottom: none;" class="links-list">
-        <li style="color: lightgrey; font-size: 20px; background-color: rgb(60,60,60);" class="sidebar-item sidebar-header"><a class="x" href="#">&#9776;</a><a class="x hackspace" style="font-size: 25px;" href="#">HackSpace</a></li>
+        <li style="color: lightgrey; font-size: 20px; background-color: rgb(60,60,60);" class="sidebar-item sidebar-header"><a class="x" href="#">&#9776;</a><a class="x hackspace" href="#">HackSpace</a></li>
         <li class="sidebar-item">
           <div class="slider" onclick="window.location.href = 'index.html';"></div>
           <a href="index.html" class="sidebar-link">Home</a>
@@ -18,6 +26,10 @@
         <li class="sidebar-item">
           <div class="slider" onclick="window.location.href = 'our-mission.html';"></div>
           <a href="our-mission.html" class="sidebar-link">Our Mission</a>
+        </li>
+        <li class="sidebar-item">
+          <div class="slider" onclick="window.location.href = 'join.html';"></div>
+          <a href="join.html" class="sidebar-link">Why Join?</a>
         </li>
         <li class="sidebar-item">
           <div class="slider" onclick="window.location.href = 'about-us.html';"></div>
@@ -31,30 +43,40 @@
           <div class="slider" onclick="window.location.href = 'requirements.html';"></div>
           <a href="requirements.html" class="sidebar-link">Requirements</a>
         </li>
+        <li class="sidebar-item">
+          <div class="slider" onclick="window.location.href = 'projects.html';"></div>
+          <a href="projects.html" class="sidebar-link">Our Projects</a>
+        </li>
       </ul>
     </div>
     <div class="overlay"></div>
     <a class="sidebar-button" href="#sidebar"><span class="center">&#9776;</span></a>
-    <h1 class="projects-header">Projects</h1>
-    <div class="projects">
-      <div class="project-description description1">
-        <h3>Project Name</h3>
-        <h5 class="project-link">Link</h5>
-        Description
+    <div class="container p-4 text-center">
+      <h1 class="main-header">Our Projects</h1>
+      <div class="projects">
+        <div class="project">
+          <h2 class="project-header">TriV Tracker</h2>
+          <div class="grid1">
+            <div class="info">
+              We partnered with TriValley CoderDojo, located in Dublin, California, to bring develop an achievement tracking system for the students to use as tool to challenge their understanding of the concepts being learned. We developed this product using front-end tools such as HTML, CSS, and JavaScript. We also used Django, Python, and SQLite for the database and backend of the website.
+            </div>
+            <div class="details">
+              <img class="details-img" src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <h2 class="project-header">Pac-Man PVP</h2>
+          <div class="grid2">
+            <div class="details">
+              <img class="details-img" src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="">
+            </div>
+            <div class="info">
+              We created a rendition of the classic Pac-Man, but modified it to make it a player-vs-player game that two people could enjoy playing together. It excludes the classic ghosts, but instead races the opponents to try and collect more dots that the other! We developed this game using Python and PyGame.
+            </div>
+          </div>
+        </div>
       </div>
-      <img src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="" class="project-image img1">
-      <img src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="" class="project-image img2">
-      <div class="project-description description2">
-        <h3>Project Name</h3>
-        <h5 class="project-link">Link</h5>
-        Description
-      </div>
-      <div class="project-description description3">
-        <h3>Project Name</h3>
-        <h5 class="project-link">Link</h5>
-        Description
-      </div>
-      <img src="https://images.unsplash.com/photo-1455165814004-1126a7199f9b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="" class="project-image img3">
     </div>
   </body>
 </html>
