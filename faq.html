@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HackSpace - About Us</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/about-us.css">
+    <link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
+  </head>
+  <style media="screen">
+    @media (max-width: 1200px) {
+      .x {
+        font-size: 45px;
+      }
+      .sidebar {
+        width: 40vw;
+      }
+      .links-list li {
+        font-size: 40px;
+      }
+      .about-us-background-image {
+        width: auto;
+      }
+      .sidebar-button {
+        height: 125px;
+        width: 125px;
+        font-size: 75px;
+      }
+      .sidebar-item {
+        padding: 17.5px 20px;
+      }
+    }
+  </style>
+  <body>
+    <div id="sidebar" class="sidebar">
+      <ul style="margin-bottom: none;" class="links-list">
+        <li style="color: lightgrey; font-size: 20px; background-color: rgb(60,60,60);" class="sidebar-item sidebar-header"><a class="x" href="#">&#9776;</a><a class="x hackspace" href="#">HackSpace</a></li>
+        <li class="sidebar-item">
+          <div class="slider" onclick="window.location.href = 'index.html';"></div>
+          <a href="index.html" class="sidebar-link">Home</a>
+        </li>
+        <li class="sidebar-item">
+          <div class="slider" onclick="window.location.href = 'our-mission.html';"></div>
+          <a href="our-mission.html" class="sidebar-link">Our Mission</a>
+        </li>
+        <li class="sidebar-item">
+          <div class="slider" onclick="window.location.href = 'join.html';"></div>
+          <a href="join.html" class="sidebar-link">Why Join?</a>
+        </li>
+        <li class="sidebar-item">
+          <div class="slider" onclick="window.location.href = 'about-us.html';"></div>
+          <a href="about-us.html" class="sidebar-link">About Us</a>
+        </li>
+        <li class="sidebar-item">
+          <div class="slider" onclick="window.location.href = 'contact-us.html';"></div>
+          <a href="contact-us.html" class="sidebar-link">Contact Us</a>
+        </li>
+        <li class="sidebar-item">
+          <div class="slider" onclick="window.location.href = 'requirements.html';"></div>
+          <a href="requirements.html" class="sidebar-link">Requirements</a>
+        </li>
+        <li class="sidebar-item">
+          <div class="slider" onclick="window.location.href = 'projects.html';"></div>
+          <a href="projects.html" class="sidebar-link">Our Projects</a>
+        </li>
+        <li class="sidebar-item">
+          <div class="slider" onclick="window.location.href = 'faq.html';"></div>
+          <a href="faq.html" class="sidebar-link">FAQ</a>
+        </li>
+      </ul>
+    </div>
+    <div class="overlay"></div>
+    <a class="sidebar-button" href="#sidebar"><span class="center">&#9776;</span></a>
+    <img class="" src="#" alt="">
+    <h1 class="about-us-header">Frequently Asked Questions</h1>
+    <div class="about-us-cards">
+      <div class="card card1">
+        <div class="card-side">
+          <div class="top-container">
+            <img src="img/default.png" alt="Profile Picture" class="profile-picture">
+            <h1 class="name">Question</h1>
+          </div>
+          <p class="title">Answer</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
