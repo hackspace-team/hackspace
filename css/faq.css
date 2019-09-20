@@ -3,16 +3,7 @@ body {
   text-align: center;
 }
 
-.about-us-background-image {
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-}
-
-.about-us-header {
+.faq-header {
   display: inline-block;
   background-color: rgba(255,255,255,.85);
   padding: 15px 20px;
@@ -21,7 +12,7 @@ body {
   border-radius: 3px;
 }
 
-.about-us-cards {
+.faq-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-auto-rows: 450px;
