@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(to right bottom, black, rgb(0, 101, 252));
+  background-image: linear-gradient(to right bottom, rgb(0, 25, 25), rgb(0, 101, 252));
   text-align: center;
 }
 
@@ -36,7 +36,9 @@ body {
   right: 0;
   bottom: 0;
   border-radius: 2px;
-  border: rgba(1,1,1,.5)
+  border: rgba(1,1,1,.5);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .front {
