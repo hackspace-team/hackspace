@@ -40,36 +40,6 @@ body {
   box-shadow: 0 5px 10px rgba(0,0,0,.3);
 }
 
-.front {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.back {
-  padding: 50px;
+.card:hover {
   transform: rotateY(180deg);
-}
-
-.long-description {
-  margin-top: 40px;
-  line-height: 25px;
-}
-
-.name {
-  font-size: 25px;
-}
-
-.profile-picture {
-  border-radius: 50%;
-  margin-bottom: 30px;
-}
-
-.card:hover .front {
-  transform: rotateY(180deg);
-}
-
-.card:hover .back {
-  transform: rotateY(360deg);
 }
