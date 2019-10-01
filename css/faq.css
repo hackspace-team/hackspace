@@ -29,21 +29,44 @@ body {
 
 .card-side {
   position: absolute;
-  background-color: white;
+  backface-visibility: hidden;
+  transition: all .5s;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   border-radius: 2px;
+}
+
+.front {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
   box-shadow: 0 5px 10px rgba(0,0,0,.3);
 }
 
-.card:hover {
+.back {
+  padding: 50px;
+  transform: rotateY(180deg);
   background-color: #eee;
-  top: 5;
-  left: 5;
-  right: 5;
-  bottom: 5;
-  border-radius: 2px;
-  box-shadow: 0 7.5px 12.5px rgba(0,0,0,.4);
+  box-shadow: 0 5px 10px rgba(0,0,0,.5);
+}
+
+.answer {
+  margin-top: 40px;
+  line-height: 25px;
+}
+
+.question {
+  font-size: 25px;
+}
+
+.card:hover .front {
+  transform: rotateY(180deg);
+}
+
+.card:hover .back {
+  transform: rotateY(360deg);
 }
