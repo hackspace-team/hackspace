@@ -29,8 +29,6 @@ body {
 
 .card-side {
   position: absolute;
-  backface-visibility: hidden;
-  transition: all .5s;
   background-color: white;
   top: 0;
   left: 0;
@@ -41,5 +39,11 @@ body {
 }
 
 .card:hover {
-  transform: rotateY(180deg);
+  background-color: #eee;
+  top: 5;
+  left: 5;
+  right: 5;
+  bottom: 5;
+  border-radius: 2px;
+  box-shadow: 0 7.5px 12.5px rgba(0,0,0,.4);
 }
