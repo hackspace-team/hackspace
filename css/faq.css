@@ -50,6 +50,7 @@ body {
 
 .back {
   padding: 50px;
+  padding-top: 20px;
   transform: rotateY(180deg);
   background-color: #eee;
   box-shadow: 0 5px 10px rgba(0,0,0,.5);
