@@ -36,6 +36,7 @@ body {
   right: 0;
   bottom: 0;
   border-radius: 2px;
+  border: rgba(1,1,1,.5)
 }
 
 .front {
